@@ -189,7 +189,7 @@ public class brick {
             }
             //System.out.println(lines.get(idx).trim());
             if(modify_type.equals("i")){
-                lines.set(idx,"%  question:"+ question_num+"\n" + content+lines.get(idx));
+                lines.set(idx,"%  Question "+ question_num+"\n" + content+lines.get(idx));
                 question_num++;
             }else{
                 lines.set(idx, content);

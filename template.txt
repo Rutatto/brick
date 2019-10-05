@@ -3,10 +3,13 @@
 // [keyword_for_detection] - 1 line, ignore space
 // [i for insertion/ r for replacement] - 1 line
 // [insertion/replacement content] - multiple lines
-// end_content
+// end_[block_name]
+
 // comment -> //
-// we ignore solution part first
-// the number of temp is decide by a CONSTANT in program
+// notes:
+// 1 the number of temp is decide by a CONSTANT in program, 
+//     please change it if you change the template.
+// 2 The block is detected by order.
 
 package
 \usepackage{enumitem}
@@ -17,7 +20,7 @@ end_package
 name
 \def\yourname
 r
-\def\yourname{Rutato} % put your name here
+\def\yourname{Rutatto} % put your name here
 end_name
 
 collaborator
@@ -28,7 +31,7 @@ i
 \textbf{External Sources: }\\
 end_collaborator
 
-//If you are not a muggle, you need to release your patronus first.
+//If you are not a muggle, you have to release your patronus.
 //Like this: Expecto Patronum！
 solution
 \newpage
